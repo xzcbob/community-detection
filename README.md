@@ -22,10 +22,11 @@ pip3 install sklearn
 
 3.使用两种图嵌入方法 word2vec node2vec 。
 
-	word2vec 运行 gengrate_word2vec_emb.py。
-	node2vec 指令如下：
+word2vec 
+	
+	python3 gengrate_word2vec_emb.py。
 
-	node2vec
+node2vec 指令如下：
 
 	python2 src/main.py --input subgraph/youtube.subgraph.txt --output emb/node2vec128/youtube.subgraph.emb --dimensions 128
 	python2 src/main.py --input subgraph/youtube.subgraph.txt --output emb/node2vec64/youtube.subgraph.emb --dimensions 64
